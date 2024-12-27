@@ -13,8 +13,6 @@ From Nashiville_Housing
 Update Nashiville_Housing
 Set Sale_Date_Converted = Cast(Saledate as date) 
 
---Note: Update didnt work, 
---DI MO GANA ANG CONVERT WHEN UPDATING IDK WHY
 
 Alter Table Nashiville_Housing
 ADD Sale_Date_Converted Date;
